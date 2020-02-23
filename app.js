@@ -14,7 +14,7 @@ app.use(morgan('dev'));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended:false}));
 
-// routes
+// routes more routes
 require('./routes/index')(app);
 
 app.listen(app.get('port'), () => {
